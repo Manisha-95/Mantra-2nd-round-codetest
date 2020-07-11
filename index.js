@@ -6,9 +6,12 @@ var a=document.getElementsByTagName("option")[0];
 console.log(a);
 var m=document.getElementById("mm").options.length;
 console.log(m);
+document.getElementById("mm").onclick=function()
+{
 for(var i=0;i<m;i++)
 {
 
+}
 }
 //a.onclick=function(){console.log("mmm")}
 const appDiv = document.getElementById('app');
