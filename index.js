@@ -12,7 +12,7 @@ var c= {
 }
 var k=Object.values(c);
 //console.log(k);
-var x=document.getElementById("cmbMoreFunction")
+var x=document.getElementById("mm")
 x.addEventListener("click",function(v){
   //console.log(v.target.value);
   if(v.target.value=="english")
