@@ -16,9 +16,15 @@ var x=document.getElementById("cmbMoreFunction")
 x.addEventListener("click",function(v){
   //console.log(v.target.value);
   if(v.target.value=="english")
+  {
 k.map(x=>console.log(x.en));
+x.selectedIndex=0;
+  }
 else if(v.target.value=="spanish")
+{
 k.map(x=>console.log(x.es));
+x.selectedIndex=0;
+}
   }
   );
 
