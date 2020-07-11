@@ -12,7 +12,8 @@ var c= {
 }
 var k=Object.values(c);
 //console.log(k);
-$('#cmbMoreFunction').click(function(v){
+var x=document.getElementById("cmbMoreFunction")
+x.addEventListener("click",function(v){
   //console.log(v.target.value);
   if(v.target.value=="english")
 k.map(x=>console.log(x.en));
