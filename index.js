@@ -6,7 +6,7 @@ var a=document.getElementsByTagName("option")[0];
 console.log(a);
 var m=document.getElementById("mm");
 console.log(m);
-document.getElementById("mm").onclick=function()
+document.getElementsByTagName("option").onclick=function()
 {
   console.log("mmk");
 // for(var i=0;i<m;i++)
